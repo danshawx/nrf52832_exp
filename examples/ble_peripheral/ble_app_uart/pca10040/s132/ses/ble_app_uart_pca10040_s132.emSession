@@ -1,0 +1,61 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks>
+  <BookmarkItem objectName="" line="67" column="0" path="C:/xd/nrf52/nRF5_SDK_17.0.2_d674dde/components/ble/ble_services/ble_dfu/ble_dfu.c" number="5" extra="NRF_SDH_BLE_OBSERVER(m_dfus_obs, BLE_DFU_BLE_OBSERVER_PRIO, ble_dfu_buttonless_on_ble_evt, &amp;m_dfu);" color="5"/>
+  <BookmarkItem objectName="" line="116" column="0" path="C:/xd/nrf52/nRF5_SDK_17.0.2_d674dde/components/ble/ble_services/ble_dfu/ble_dfu.c" number="2" extra="ble_dfu_buttonless_on_ctrl_pt_write(p_evt_write);" color="5"/>
+  <BookmarkItem objectName="" line="144" column="0" path="C:/xd/nrf52/nRF5_SDK_17.0.2_d674dde/components/ble/ble_services/ble_dfu/ble_dfu.c" number="3" extra="on_ctrlpt_write(&amp;p_auth_req->request.write);" color="5"/>
+  <BookmarkItem objectName="" line="215" column="0" path="C:/xd/nrf52/nRF5_SDK_17.0.2_d674dde/components/ble/ble_services/ble_dfu/ble_dfu.c" number="4" extra="on_rw_authorize_req(p_ble_evt);" color="5"/>
+  <BookmarkItem objectName="" line="236" column="0" path="C:/xd/nrf52/nRF5_SDK_17.0.2_d674dde/components/ble/ble_services/ble_dfu/ble_dfu_unbonded.c" number="1" extra="err_code = enter_bootloader();" color="5"/>
+ </Bookmarks>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <BreakpointListItem trigger="" line="716" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="../../../main.c" useHWbreakpoint="false"/>
+ </Breakpoints>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
+ </FrameBufferWindow>
+ <Memory1/>
+ <Memory2/>
+ <Memory3/>
+ <Memory4/>
+ <Project>
+  <ProjectSessionItem path="ble_app_uart_pca10040_s132"/>
+  <ProjectSessionItem path="ble_app_uart_pca10040_s132;ble_app_uart_pca10040_s132"/>
+  <ProjectSessionItem path="ble_app_uart_pca10040_s132;ble_app_uart_pca10040_s132;Application"/>
+  <ProjectSessionItem path="ble_app_uart_pca10040_s132;ble_app_uart_pca10040_s132;DFU"/>
+  <ProjectSessionItem path="ble_app_uart_pca10040_s132;ble_app_uart_pca10040_s132;nRF_Libraries"/>
+ </Project>
+ <Register1/>
+ <Register2/>
+ <Register3/>
+ <Register4/>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never"/>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="252" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="236" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="56" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/bootloader/ble_dfu/nrf_dfu_ble_svci_bond_sharing.h" selected="0" top="18" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="5" y="226" useTextEdit="1" openedFrom="C:/xd/nrf52/nRF5_SDK_17.0.2_d674dde/examples/ble_peripheral/ble_app_uart/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/ble/ble_services/ble_dfu/ble_dfu_unbonded.c" selected="0" top="215" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="23" y="1337" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../config/sdk_config.h" selected="0" top="1323" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="45" y="65" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/ble/ble_services/ble_dfu/ble_dfu.c" selected="0" top="52" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="339" useTextEdit="1" openedFrom="C:/xd/nrf52/nRF5_SDK_17.0.2_d674dde/examples/ble_peripheral/ble_app_uart/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/pwr_mgmt/nrf_pwr_mgmt.c" selected="0" top="330" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="137" useTextEdit="1" openedFrom="C:/xd/nrf52/nRF5_SDK_17.0.2_d674dde/components/ble/ble_services/ble_dfu/ble_dfu.c" useBinaryEdit="0" left="0" path="../../../../../../components/ble/ble_services/ble_dfu/ble_dfu.h" selected="0" top="116" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="300" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/ble/ble_services/ble_dfu/ble_dfu_bonded.c" selected="0" top="267" codecName="Default"/>
+ </Files>
+ <ARMCrossStudioWindow activeProject="ble_app_uart_pca10040_s132" fileDialogDefaultFilter="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.hxx" autoConnectTarget="J-Link" buildConfiguration="Release" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/xd/nrf52/nRF5_SDK_17.0.2_d674dde/components/ble/ble_services/ble_dfu" debugSearchPath="" autoConnectCapabilities="3199"/>
+</session>
